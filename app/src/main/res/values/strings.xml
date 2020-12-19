@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Seputar Fakta</string>
+    <string name="apakah_kamu_tahu">Apakah Kamu Tahu?</string>
+    <string name="life_of_programmer_no_hugs_and_kisses_only_bugs_and_fixes">Life of Programmer : no hugs and kisses,, only bugs and fixes</string>
+    <string name="fakta_lainnya">Fakta Lainnya</string>
+    <string name="todo">TODO</string>
+</resources>

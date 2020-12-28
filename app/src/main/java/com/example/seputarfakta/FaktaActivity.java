@@ -32,14 +32,14 @@ public class FaktaActivity extends AppCompatActivity {
         TextView.OnClickListener Listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    String fakta = mkumpulanFakta.getFakta();
-                    int warna = mbackgroundcolor.getWarna();
+                String fakta = mkumpulanFakta.getFakta();
+                int warna = mbackgroundcolor.getWarna();
 
-                    mFaktaTextView.setText(fakta);
-                    mTampilFaktaLainButton.setTextColor(warna);
-                    mContraintLayout.setBackgroundColor(warna);
+                mFaktaTextView.setText(fakta);
+                mTampilFaktaLainButton.setTextColor(warna);
+                mContraintLayout.setBackgroundColor(warna);
 
-                    Toast.makeText(FaktaActivity.this, "Lihat Fakta Lainnya!", Toast.LENGTH_LONG).show();
+                Toast.makeText(FaktaActivity.this, "Lihat Fakta Lainnya!", Toast.LENGTH_LONG).show();
                 }
             };
         mTampilFaktaLainButton.setOnClickListener(Listener);

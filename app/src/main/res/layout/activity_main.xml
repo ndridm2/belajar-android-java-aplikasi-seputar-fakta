@@ -6,13 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#4A00BCD4"
+    android:layout_gravity="center"
     tools:context=".FaktaActivity">
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
         android:text="@string/apakah_kamu_tahu"
+        android:textAlignment="center"
         android:textColor="#A3070707"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,43 +26,45 @@
 
     <TextView
         android:id="@+id/FaktaTextView"
-        android:layout_width="326dp"
-        android:layout_height="320dp"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
         android:text="@string/life_of_programmer_no_hugs_and_kisses_only_bugs_and_fixes"
+        android:textAlignment="center"
         android:textColor="#0B0B0B"
         android:textColorHighlight="#B1AEAE"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.426"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.596" />
+        app:layout_constraintVertical_bias="0.417" />
 
     <Button
         android:id="@+id/FaktaLainnyaButton"
-        android:layout_width="338dp"
+        android:layout_width="308dp"
         android:layout_height="46dp"
         android:background="@drawable/custom"
         android:text="@string/fakta_lainnya"
-        android:textColor="#00BCD4"
+        android:textColor="#0B0B0B"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/FaktaTextView"
-        app:layout_constraintVertical_bias="0.761" />
+        app:layout_constraintVertical_bias="0.873" />
 
     <ImageView
-        android:layout_width="309dp"
-        android:layout_height="230dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:contentDescription="@string/todo"
         android:src="@drawable/img"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.79"
-        android:contentDescription="@string/todo" />
+        app:layout_constraintVertical_bias="0.814" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

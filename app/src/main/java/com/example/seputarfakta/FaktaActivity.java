@@ -36,10 +36,10 @@ public class FaktaActivity extends AppCompatActivity {
                 int warna = mbackgroundcolor.getWarna();
 
                 mFaktaTextView.setText(fakta);
-                mTampilFaktaLainButton.setTextColor(warna);
                 mContraintLayout.setBackgroundColor(warna);
+                //mTampilFaktaLainButton.setTextColor(warna);
 
-                Toast.makeText(FaktaActivity.this, "Lihat Fakta Lainnya!", Toast.LENGTH_LONG).show();
+                //Toast.makeText(FaktaActivity.this, "Lihat Fakta Lainnya!", Toast.LENGTH_LONG).show();
                 }
             };
         mTampilFaktaLainButton.setOnClickListener(Listener);
